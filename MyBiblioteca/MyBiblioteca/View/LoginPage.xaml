@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyBiblioteca.View.LoginPage">
+    <StackLayout
+        HorizontalOptions="Center"
+        VerticalOptions="Center">
+
+        <Label HorizontalOptions="Center"
+               VerticalOptions="Center"
+            Text="Faça seu login para ter acesso a sua biblioteca pessoal"/>
+
+        <Button Text="Login com Facebook"
+                Command="{Binding LoginCommand}"></Button>
+
+        <Label x:Name="InfoLabel"></Label>
+    </StackLayout>
+</ContentPage>

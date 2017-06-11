@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyBiblioteca"
+             x:Class="MyBiblioteca.MainPage">
+
+	<Label Text="Welcome to MyBiblioteca!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+    <!--<ListView Grid.Row="0" 
+                  Grid.Column="0"
+                  IsRefreshing="{Binding Loading}"
+                  ItemsSource="{Binding Livros}"
+                  ItemSelected="ListView_OnItemSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ImageCell
+                        ImageSource="{Binding ImageUrl}"
+                        Text="{Binding Titulo}"
+                        Detail="{Binding Autor}" />
+                <TextCell Text="{Binding Titulo}"></TextCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>-->
+</ContentPage>
